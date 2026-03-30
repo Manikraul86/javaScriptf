@@ -71,3 +71,53 @@ console.log(typeof result);
 /*Data Types in JavaScript
 JavaScript has several built-in data types that can be used to store and manipulate different kinds of data. Here are the main data types in JavaScript:*/              
 
+/******* Operations ***************/
+//1. Arithmetic Operators
+let a = 10;
+let b = 5;
+console.log(a + b); // Addition
+console.log(a - b); // Subtraction
+console.log(a * b); // Multiplication
+console.log(a / b); // Division
+console.log(a % b); // Modulus  
+//2. Comparison Operators
+console.log(a == b); // Equal to
+console.log(a === b); // Strict equal to
+console.log(a != b); // Not equal to
+console.log(a !== b); // Strict not equal to
+console.log(a > b); // Greater than
+console.log(a < b); // Less than
+console.log(a >= b); // Greater than or equal to
+console.log(a <= b); // Less than or equal to
+//3. Logical Operators
+let x = true;
+let y = false;
+console.log(x && y); // Logical AND
+console.log(x || y); // Logical OR
+console.log(!x); // Logical NOT
+//4. Assignment Operators
+let c = 10; 
+c += 5; // c = c + 5
+console.log(c);
+c -= 3; // c = c - 3
+console.log(c);
+c *= 2; // c = c * 2
+console.log(c);
+c /= 4; // c = c / 4
+console.log(c);
+c %= 3; // c = c % 3
+console.log(c); 
+//5. Increment and Decrement Operators
+let d = 5;
+console.log(d++); // Post-increment
+console.log(d); 
+let e = 5;
+console.log(++e); // Pre-increment
+console.log(e); 
+let f = 5;
+console.log(f--); // Post-decrement
+console.log(f); 
+let g = 5;
+console.log(--g); // Pre-decrement
+console.log(g); 
+/*These are some of the basic operations you can perform with different data types in JavaScript. Understanding these operations is essential for writing effective and efficient code.*/
