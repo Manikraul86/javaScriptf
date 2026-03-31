@@ -8,11 +8,11 @@ Data types in JavaScript refer to the different types of values that can be stor
 // Primitive Data Types
 
 // String
-let name = "John Doe";
+let name = "Manik Raul";
 console.log(name); // Output: John Doe  
 
 // Number
-let age = 30;
+let age = 24;
 console.log(age); // Output: 30
 
 // Boolean
@@ -34,12 +34,12 @@ console.log(uniqueId); // Output: Symbol(id)
 // Non Primitive Data Types
 
 // Object
-let person = {
+let person1 = {
     name: "Alice",
     age: 25,
     isStudent: false
 };
-console.log(person); // Output: { name: 'Alice', age: 25, isStudent: false }
+console.log(person1); // Output: { name: 'Alice', age: 25, isStudent: false }
 
 // Array
 let numbers = [1, 2, 3, 4, 5];
@@ -65,3 +65,25 @@ console.log(typeof greet); // Output: function
 
 // Understanding data types is essential for performing operations, making decisions, and managing memory effectively in JavaScript programming.
 
+// ----------------------------------------------------
+
+/********** Types of Memory ***********/
+
+// In JavaScript, there are two main types of memory: (stack memory and heap memory). 
+// Stack memory is used for storing primitive data types and function calls, 
+// while heap memory is used for storing objects and arrays. Understanding the differences between these two types of memory is important for optimizing performance and managing resources in JavaScript applications.
+// Stack memory is a region of memory that is used for storing primitive data types (such as numbers, strings, booleans, null, and undefined) and function calls. It operates in a last-in-first-out (LIFO) manner, meaning that the most recently added item is the first one to be removed. When a function is called, a new stack frame is created to store the function's local variables and parameters. Once the function execution is complete, the stack frame is removed from the stack memory.
+// Heap memory, on the other hand, is a region of memory that is used for storing objects and arrays. It is a more flexible memory area that allows for dynamic allocation and deallocation of memory. When an object or array is created, it is stored in heap memory, and a reference to that memory location is stored in stack memory. This allows for the creation of complex data structures and the ability to manipulate them without worrying about memory management.
+// Understanding the differences between stack memory and heap memory is crucial for optimizing performance and managing resources in JavaScript applications. Properly managing memory can help prevent memory leaks and improve the overall efficiency of your code.
+// Example of stack memory:
+function add(a, b) {
+    return a + b;
+}   
+console.log(add(5, 10)); // Output: 15
+
+// Example of heap memory:  
+let person = {
+    name: "Alice",
+    age: 25
+};
+console.log(person); // Output: { name: 'Alice', age: 25 }

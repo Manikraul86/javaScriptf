@@ -1,4 +1,4 @@
-                  /*****Variables In javaScript ************/                      
+                                     /*****Variables In javaScript ************/                      
                                       
 // Variables are containers for storing data values. In JavaScript, you can declare variables using the var, let, or const keywords. Each of these keywords has different characteristics and use cases.
 

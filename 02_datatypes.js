@@ -1,5 +1,9 @@
 
 /*********Data Types in javaScript *********
+ * what is data type?
+ * Data type is a classification of data that tells the compiler or interpreter how the programmer intends to use the data. It defines the type of value that a variable can hold and the operations that can be performed on that value. In JavaScript, there are several data types that can be categorized into two main groups: primitive data types and non-primitive (or reference) data types. Here is a list of the different data types in JavaScript:
+ * In JavaScript, there are several data types that can be categorized into two main groups: primitive data types and non-primitive (or reference) data types. Here is a list of the different data types in JavaScript:
+
  * 1.String
  * 2.Number & Date
  * 3.Boolean
