@@ -3,7 +3,7 @@
 // // String is a sequence of characters enclosed in single quotes, double quotes, or backticks
 
 let greeting = "Hii, I am Manik Raul";
-// console.log(greeting); // Output: Hii, I am Manik Raul
+console.log(greeting); // Output: Hii, I am Manik Raul
 
 // String concatenation
 let firstName = "Manik";
