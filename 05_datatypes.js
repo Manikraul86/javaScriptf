@@ -35,7 +35,7 @@ console.log(uniqueId); // Output: Symbol(id)
 
 // Object
 let person1 = {
-    name: "Alice",
+    name: "manik raul",
     age: 25,
     isStudent: false
 };
@@ -83,7 +83,12 @@ console.log(add(5, 10)); // Output: 15
 
 // Example of heap memory:  
 let person = {
-    name: "Alice",
+    name: "manik raul",
     age: 25
 };
-console.log(person); // Output: { name: 'Alice', age: 25 }
+
+let anotherPerson = person; // anotherPerson is a reference to the same object in heap memory
+anotherPerson.age = 30; // Modifying the age property through anotherPerson reference
+
+console.log(person.age); // Output: 30 (the change is reflected in the original person object)
+console.log(anotherPerson.age); // Output: 30 (the change is reflected in the anotherPerson object)
