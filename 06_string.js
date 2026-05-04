@@ -5,6 +5,11 @@
 let greeting = "Hii, I am Manik Raul";
 // console.log(greeting); // Output: Hii, I am Manik Raul
 
+// String concatenation
+let firstName = "Manik";
+let lastName = "Raul";
+let fullName = firstName + " " + lastName; // Concatenating strings using the + operator
+console.log(fullName); // Output: Manik Raul
 
 
 // String methods
@@ -21,6 +26,7 @@ console.log(gameName.slice(0, 5)); //The slice() method extracts a part of a str
 console.log(gameName.replace("valor", "v")); //The replace() method replaces a specified value with another value in a string
 console.log(gameName.charAt(3)); //The charAt() method returns the character at a specified index in a string
 
+console.log(gameName.trim()); // Output: valorant
 
 
 
